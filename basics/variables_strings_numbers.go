@@ -18,7 +18,7 @@ func main() {
 
 	fmt.Println(nameFour)
 
-	// numbers
+	// numbers and integers
 	var ageOne int = 21
 	var ageTwo = 22
 	var ageThree int		// default is 0
@@ -64,8 +64,61 @@ func main() {
 	numTen := 5646354354546            	// -9223372036854775808 to 9223372036854775807
 	fmt.Println("numTen: ", numTen)
 
-	numEleven := -5646354354546        	// -9223372036854775808 to 9223372036854775807
+	numEleven := -7646354354546        	// -9223372036854775808 to 9223372036854775807
 	fmt.Println("numEleven: ", numEleven)
+
+	// floating point numbers
+	var floatOne float32 = 3.14
+	var floatTwo = 3.141592
+
+	fmt.Println("floatOne: ", floatOne, "floatTwo: ", floatTwo)
+
+	var floatThree float64 = 3141592.653545
+	fmt.Println("floatThree: ", floatThree)
+
+	floatFour := 31415.92653545
+	fmt.Println("floatFour: ", floatFour)
+
+	// complex numbers
+	var complexOne complex64 = 3 + 2i		// complex64 is the set of all complex numbers with float32 real and imaginary parts.
+	fmt.Println("complexOne: ", complexOne)
+
+	var complexTwo complex128 = 3 + 2i		// complex128 is the set of all complex numbers with float64 real and imaginary parts.
+	fmt.Println("complexTwo: ", complexTwo)
+
+	complexThree := 3 + 2i
+	fmt.Println("complexThree: ", complexThree)
+
+	// boolean
+	var boolOne bool = true
+	fmt.Println("boolOne: ", boolOne)
+
+	var boolTwo = false
+	fmt.Println("boolTwo: ", boolTwo)
+
+	boolThree := true
+	fmt.Println("boolThree: ", boolThree)
+
+	// Byte
+	var byteOne byte = 'A'		// byte is an alias for uint8
+	fmt.Println("byteOne: ", byteOne) // ascii table for 'A' is 65
+
+	var byteTwo = 'B'
+	fmt.Println("byteTwo: ", byteTwo)	// ascii table for 'B' is 66
+
+	byteThree := 'C'
+	fmt.Println("byteThree: ", byteThree)	// ascii table for 'C' is 67
+
+	// rune
+	var runeOne rune = 'a'		// rune is an alias for int32
+	fmt.Println("runeOne: ", runeOne) // ascii table for 'a' is 97
+
+	var runeTwo = 'b'
+	fmt.Println("runeTwo: ", runeTwo) // ascii table for 'b' is 98
+
+	runeThree := 'c'
+	fmt.Println("runeThree: ", runeThree) // ascii table for 'c' is 99
+
 
 
 }
