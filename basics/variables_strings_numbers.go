@@ -17,4 +17,14 @@ func main() {
 	nameFour := "Yeaaaaaaaaaaaaa"
 
 	fmt.Println(nameFour)
+
+	// numbers
+	var ageOne int = 21
+	var ageTwo = 22
+	var ageThree int		// default is 0
+
+	fmt.Println(ageOne, ageTwo, ageThree)
+
+	ageFour := 23
+	fmt.Println(ageFour)
 }
