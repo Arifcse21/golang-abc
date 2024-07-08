@@ -36,13 +36,9 @@ func main() {
 
 	
 
-	// Sprintf
+	// Sprintf (save formatted string)
 	s := fmt.Sprintf("Hello!, I am %s. and I am %d years old.", name, age)
 	fmt.Println(s)
-
-	// Fprintf
-	fmt.Fprintf(os.Stderr, "Hello!, I am %s. and I am %d years old.\n", name, age)
-
 
 
 }
