@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GoLang/basics"
+	"golang-abc/basics"
 )
 
 func main() {
