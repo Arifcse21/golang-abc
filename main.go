@@ -1,7 +1,8 @@
 package main
 
 import (
-	"golang-abc/basics"
+	// "golang-abc/basics"
+	"golang-abc/shop_inventory"
 )
 
 func main() {
@@ -13,5 +14,6 @@ func main() {
 	// basics.KeyboardInput()
 	// basics.StringIndex()
 	// basics.ForLoop()
-	basics.TemperatureConverter()
+	// basics.TemperatureConverter()
+	shopinventory.RunShopInventory()
 }
