@@ -12,5 +12,6 @@ func main() {
 	// basics.FormattingStrings()
 	// basics.KeyboardInput()
 	// basics.StringIndex()
-	basics.ForLoop()
+	// basics.ForLoop()
+	basics.TemperatureConverter()
 }
