@@ -17,6 +17,7 @@ func main() {
 	// basics.ForLoop()
 	// basics.TemperatureConverter()
 	// basics.DeferFunction()
-	basics.PanicFunction()
+	// basics.PanicFunction()
+	basics.RecoverFunction()
 	// shopinventory.RunShopInventory()
 }

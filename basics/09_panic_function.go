@@ -17,6 +17,7 @@ func Devide(a, b float64) float64 {
 
 func PanicFunction() {
 	fmt.Println("Panic Function")
+	fmt.Println("Enter two numbers and I will devide them")
 	fmt.Println("Enter first number: ")
 	reader1 := bufio.NewReader(os.Stdin)
 	num1Str, _ := reader1.ReadString('\n')
